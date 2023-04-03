@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.AI.OpenAI.WASM.Server", "Standard.AI.OpenAI.WASM\Server\Standard.AI.OpenAI.WASM.Server.csproj", "{B5422811-85F5-4EC9-B1AC-0C42ECC18573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.AI.OpenAI.WASM.Client", "Standard.AI.OpenAI.WASM\Client\Standard.AI.OpenAI.WASM.Client.csproj", "{070D675E-1D89-40E6-89FD-FA6AAFE2E1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.AI.OpenAI.WASM.Shared", "Standard.AI.OpenAI.WASM\Shared\Standard.AI.OpenAI.WASM.Shared.csproj", "{44AD0CE9-9D5E-4273-906D-3CEE66F8F3E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5422811-85F5-4EC9-B1AC-0C42ECC18573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5422811-85F5-4EC9-B1AC-0C42ECC18573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5422811-85F5-4EC9-B1AC-0C42ECC18573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5422811-85F5-4EC9-B1AC-0C42ECC18573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070D675E-1D89-40E6-89FD-FA6AAFE2E1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070D675E-1D89-40E6-89FD-FA6AAFE2E1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070D675E-1D89-40E6-89FD-FA6AAFE2E1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070D675E-1D89-40E6-89FD-FA6AAFE2E1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44AD0CE9-9D5E-4273-906D-3CEE66F8F3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AD0CE9-9D5E-4273-906D-3CEE66F8F3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AD0CE9-9D5E-4273-906D-3CEE66F8F3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AD0CE9-9D5E-4273-906D-3CEE66F8F3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D126D8AB-878D-431E-8968-C75ED67E9A27}
+	EndGlobalSection
+EndGlobal
